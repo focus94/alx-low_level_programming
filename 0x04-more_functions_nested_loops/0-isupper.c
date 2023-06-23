@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.hi"
 
 /**
  * _isupper - check if a letter is upper
@@ -8,7 +8,7 @@
 
 int _isupper(int c)
 {
-	if (c >= 'a' && c <= 'z')
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
