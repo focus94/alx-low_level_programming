@@ -2,16 +2,15 @@
 
 /**
  * print_numbers - check for check for a didit (0 through 9)
- *
  * Return: Always 0.
  */
 void print_numbers(void)
 {
-		int c:
+		int x:
 
-		for (c = 48; c < 58; c++)
+		for (x = 0; x <= 9; x++)
 		{
-			_putchar(c);
+			_putchar(x + '0');
 		}
 
 		_putchar('\n');
