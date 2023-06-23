@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers - check for check for a didit (0 through 0)
+ * print_numbers - check for check for a didit (0 through 9)
  *
  * Return: Always 0.
  */
@@ -10,7 +10,7 @@ void print_numbers(void)
 {
 		int c:
 
-		for (c = 0; c < 10; c++)
+		for (c = 48; c < 58; c++)
 		{
 			_putchar(c);
 		}
